@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>.</p>
+Enter your name: <input type="text" id="fname" onkeyup="myFunction()">
+
+<script>
+function myFunction() {
+  var x = document.getElementById("fname").value;
+  var n = x.replace(/-/,'');
+  document.getElementById("fname").value = n;
+}
+</script>
+
+</body>
+</html>
