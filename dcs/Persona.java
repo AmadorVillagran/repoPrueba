@@ -6,6 +6,7 @@ public class Persona{
 	private String name;
 	private String surname;
 	private Date birthDate;
+	private String street;
 
 	public Persona(){
 	}
@@ -26,6 +27,10 @@ public class Persona{
 		return this.birthDate;
 	}
 
+	public String getStreet(){
+		return this.street;
+	}
+
 	public void setId(Integer id){
 		this.id = id;
 	}
@@ -40,5 +45,9 @@ public class Persona{
 
 	public void setBirthDate(Date birthDate){
 		this.birthDate = birthDate;
+	}
+
+	public void setStreet(String street){
+		this.street = street;
 	}
 }
